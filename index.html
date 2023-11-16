@@ -24,22 +24,66 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="my_portfolio_app">
+  <meta name="apple-mobile-web-app-title" content="NursultanDev">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>my_portfolio_app</title>
+  <title>NursultanDev</title>
   <link rel="manifest" href="manifest.json">
+
+  <style type="text/css">
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+    }
+
+  
+
+    .loader {
+      border: 5px solid #f3f3f3;
+      /* Light grey */
+      border-top: 5px solid #3498db;
+      /* Blue */
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      animation: spin 2s linear infinite;
+      margin: auto;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "4035310136";
+    const serviceWorkerVersion = "3589664558";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
+
+<body>
+  <div class="">
+    <div class="center">
+      <div class="loader loading "></div>
+
+    </div>
+
+  </div>
 
 <body>
   <script>
