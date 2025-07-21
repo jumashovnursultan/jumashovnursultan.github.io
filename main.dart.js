@@ -82393,7 +82393,8 @@ A.nn.prototype={
 Y(a){var s=null
 return new A.q3(s,A.cD(A.a([A.cD(s,B.aau,this.d)],t.VO),B.a8F,this.c),s,s,s,s)}}
 A.CB.prototype={
-Y(a){var s=this,r=null,q=t.E,p=A.a([A.n7(s.c,r,B.a7a,r),A.n7(s.d,r,B.FL,r),A.n7(s.e,r,B.FL,r)],q)
+Y(a){var s=this,r=null,q=t.E,p=A.a([A.n7(s.c,r,B.a7a,r),A.n7(s.d,r,B.FL,r)],q),o=s.e
+if(o!=null)p.push(A.n7(o,r,B.FL,r))
 B.b.H(p,A.a([B.a56,A.n7(s.f,r,B.aag,r)],q))
 return A.jy(p,B.b6,B.aK,B.aL)}}
 A.e0.prototype={}
@@ -82431,13 +82432,13 @@ j=A.bV("experience")
 i=A.bV(a0)
 h=A.bV("experiencePeriodOdigital")
 g=A.bV("workAtOdigital")
-f=A.bV(a0)
-e=A.bV("june2023")
+f=A.bV("dateOfFreelancing")
+e=A.bV(a0)
 d=A.bV("workAtFreelancing")
 c=a7.aA(t.IB).r.a
 c===$&&A.b()
 c=c.gc3()==="US"?A.bV("last")+A.bV(a1)+" ":A.bV(a1)
-c=A.jy(A.a([new A.nn(n+" ",j,a),B.dY,new A.CB("Odigital",i,h,g,a),B.dY,new A.CB("Freelancing",f,e,d,a),B.dZ,B.MB,B.dZ,new A.nn(c,A.bV("iWorkedOn"),a)],a5),B.b6,B.aK,B.aL)
+c=A.jy(A.a([new A.nn(n+" ",j,a),B.dY,new A.CB("Odigital",i,h,g,a),B.dY,new A.CB("Freelancing ("+f+")",e,a,d,a),B.dZ,B.MB,B.dZ,new A.nn(c,A.bV("iWorkedOn"),a)],a5),B.b6,B.aK,B.aL)
 d=A.avT(a7)
 e=A.avT(a7)
 return new A.or(B.l,A.aDl(!0,new A.AL(new A.wx(a4,B.a3b,a6,a3,B.Lt,!1,10,new A.Z9(70,a2,1/0,70+s),70,58,a),A.aDx(A.oo(A.jy(A.a([B.a5a,new A.nn(r,"!",a),B.Fn,new A.cQ(B.N1,q,a),B.dZ,new A.fb(B.dd,a,a,new A.cQ(new A.bc(p,0,p,0),o,a),a),B.dZ,l,B.dY,k,B.dZ,new A.cQ(new A.bc(m,0,m,0),c,a),B.a59,new A.fb(B.dd,a,a,new A.cQ(new A.bc(d,0,d,0),B.OG,a),a),B.dZ,new A.fb(B.dd,a,a,new A.cQ(new A.bc(e,0,e,0),A.jy(A.a([new A.nn(A.bV("hard")," "+A.bV("skills").toLowerCase(),a),B.Fn,B.NQ],a5),B.b6,B.aK,B.aL),a),a),B.a55],a5),B.aO,B.aK,B.aL),a,a),b.d,a),B.l,a),!0),a)}}
