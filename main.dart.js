@@ -62088,7 +62088,7 @@ $1(a){return a.Ln()},
 $S:388}
 A.a4m.prototype={
 $0(){var s=v.G.document.createElement("a")
-s.href="assets/files/Flutter Developer (Jumashov Nursultan).pdf"
+s.href="flutter_developer_nursultan.pdf"
 s.download="Flutter Developer (Jumashov Nursultan).pdf"
 s.click()
 return null},
