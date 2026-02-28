@@ -6553,7 +6553,7 @@ if(r==null)r=3
 s=b==null?null:b.a
 r=A.J(r,s==null?3:s,c)
 r.toString
-return B.kW[A.atR(B.c.an(r),0,8)]},
+return B.kV[A.atR(B.c.an(r),0,8)]},
 ae3(a,b,c){var s=a==null,r=s?null:a.a,q=b==null
 if(r==(q?null:b.a))s=s&&q
 else s=!0
@@ -29572,11 +29572,11 @@ ga46(){var s=this.a
 if(s instanceof A.dn)return s
 return this.a=new A.dn(s)},
 ga4C(){var s,r,q,p,o,n=this
-if(n.c===1)return B.kT
+if(n.c===1)return B.kS
 s=n.d
 r=J.bi(s)
 q=r.gu(s)-J.bK(n.e)-n.f
-if(q===0)return B.kT
+if(q===0)return B.kS
 p=[]
 for(o=0;o<q;++o)p.push(r.j(s,o))
 p.$flags=3
@@ -32875,7 +32875,7 @@ n=o.w=s.charCodeAt(0)==0?s:s}return n},
 gt0(){var s,r,q=this,p=q.x
 if(p===$){s=q.e
 if(s.length!==0&&s.charCodeAt(0)===47)s=B.d.dw(s,1)
-r=s.length===0?B.kS:A.Tg(new A.aa(A.c(s.split("/"),t.s),A.au4(),t.nf),t.N)
+r=s.length===0?B.kR:A.Tg(new A.aa(A.c(s.split("/"),t.s),A.au4(),t.nf),t.N)
 q.x!==$&&A.aG()
 p=q.x=r}return p},
 gq(a){var s,r=this,q=r.y
@@ -32987,7 +32987,7 @@ gj3(){var s=this.r,r=this.a
 return s<r.length?B.d.dw(r,s+1):""},
 gt0(){var s,r,q=this.e,p=this.f,o=this.a
 if(B.d.cR(o,"/",q))++q
-if(q===p)return B.kS
+if(q===p)return B.kR
 s=A.c([],t.s)
 for(r=q;r<p;++r)if(o.charCodeAt(r)===47){s.push(B.d.ai(o,q,r))
 q=r+1}s.push(B.d.ai(o,q,p))
@@ -41420,7 +41420,7 @@ p=h.gjx()
 o=h.r
 o=o==null?g:o*a2+a1
 n=h.w
-n=n==null?g:B.kW[B.h.iT(n.a,0,8)]
+n=n==null?g:B.kV[B.h.iT(n.a,0,8)]
 m=h.y
 m=m==null?g:m*a6+a5
 l=h.z
@@ -41962,8 +41962,8 @@ s=r.R
 r.dI=s==null?null:s.gAY()
 a.a=!1},
 nC(a,b,c){var s,r,q,p,o=this
-o.he=A.afn(o.he,B.kU)
-o.j2=A.afn(o.j2,B.kU)
+o.he=A.afn(o.he,B.kT)
+o.j2=A.afn(o.j2,B.kT)
 s=o.he
 r=s!=null&&!s.gO(s)
 s=o.j2
@@ -48906,7 +48906,7 @@ A.eJ.prototype={
 F(){return"ModifierKey."+this.b}}
 A.uN.prototype={
 ga49(){var s,r,q=A.u(t.BK,t.FE)
-for(s=0;s<9;++s){r=B.kX[s]
+for(s=0;s<9;++s){r=B.kW[s]
 if(this.a3w(r))q.m(0,r,B.cc)}return q}}
 A.iK.prototype={}
 A.XU.prototype={
@@ -48944,7 +48944,7 @@ i=$.ih
 if(i!=null)i.$1(new A.bu(r,q,"services library",j,p,!1))}}return!1},
 Z1(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g=a1.c,f=g.ga49(),e=t.F3,d=A.u(e,t.E),c=A.av(e),b=this.d,a=A.eh(new A.aO(b,A.o(b).h("aO<1>")),e),a0=a1 instanceof A.jZ
 if(a0)a.B(0,g.gfN())
-for(s=g.a,r=null,q=0;q<9;++q){p=B.kX[q]
+for(s=g.a,r=null,q=0;q<9;++q){p=B.kW[q]
 o=$.ajt()
 n=o.j(0,new A.bZ(p,B.b3))
 if(n==null)continue
@@ -62195,8 +62195,8 @@ M(a){var s=null
 return A.d6(s,s,B.x,B.aF,s,s,s,50,s,s,s,s,1)}}
 A.Dt.prototype={
 M(a){var s=null,r=A.bB(a,s,t.w).w.a.a<1000,q=r?24:80
-return A.d6(s,A.e9(A.c([B.H1,B.vA,r?A.e9(this.Rw(!0),B.N,B.K):new A.JJ(B.kR,s)],t.p),B.ac,B.K),B.x,B.bm,s,s,s,s,s,new A.aP(q,100,q,100),s,s,s)},
-Rw(a){return new A.lO(B.kR,t.fu).gdW().dK(0,new A.XQ(),t.nk).cD(0)}}
+return A.d6(s,A.e9(A.c([B.H1,B.vA,r?A.e9(this.Rw(!0),B.N,B.K):new A.JJ(B.kX,s)],t.p),B.ac,B.K),B.x,B.bm,s,s,s,s,s,new A.aP(q,100,q,100),s,s,s)},
+Rw(a){return new A.lO(B.kX,t.fu).gdW().dK(0,new A.XQ(),t.nk).cD(0)}}
 A.XQ.prototype={
 $1(a){return new A.cW(B.kp,A.iP(A.eB(A.e6(new A.pR(a.b,null),null),A.b6(B.h.an(a.a*150*1000),0),A.b6(6e5,0)),0.2,0),null)},
 $S:389}
@@ -65618,9 +65618,9 @@ B.hz=new A.tL(2,"mandatory")
 B.kN=new A.tL(3,"endOfText")
 B.wB=new A.cx(-1,-1)
 B.wy=new A.cx(1,1)
-B.kV=s([B.k,B.cU],t.bk)
-B.hA=new A.iq(B.wB,B.wy,B.ba,B.kV,null,null)
-B.d2=new A.iq(B.fk,B.fj,B.ba,B.kV,null,null)
+B.kU=s([B.k,B.cU],t.bk)
+B.hA=new A.iq(B.wB,B.wy,B.ba,B.kU,null,null)
+B.d2=new A.iq(B.fk,B.fj,B.ba,B.kU,null,null)
 B.yO=new A.A(1,0,0.6,0.7333333333333333,B.f)
 B.yL=new A.A(1,0.3568627450980392,0.12941176470588237,0.7137254901960784,B.f)
 B.CB=s([B.yO,B.yL],t.bk)
@@ -65661,27 +65661,6 @@ B.ya=new A.kZ(0,"auto")
 B.yb=new A.kZ(1,"full")
 B.yc=new A.kZ(2,"chromium")
 B.C7=s([B.ya,B.yb,B.yc,B.bD],A.ab("w<kZ>"))
-B.CI=s(["Flutter","BLoC","Firebase","REST API","OAuth 2.0","Dynamic Links"],t.s)
-B.Gl=new A.dE("\u041c\u0430\u043b \u0411\u0430\u0437\u0430\u0440","Digital agro-platform for Kyrgyzstan. Deep linking via Firebase Dynamic Links, YouTube video playback, and favorites with local caching and server sync.",B.CI,null,null,null,"https://malbazar.me/","\ud83d\udc11","AgriTech")
-B.Cc=s(["Flutter","Riverpod","Firebase","REST API","OAuth 2.0"],t.s)
-B.Gs=new A.dE("Chelnok","Marketplace for the sewing industry with multi-role system for workshops, clients and users. 9 ad categories, ratings & reviews, and OAuth 2.0 auth via Google, Apple and Yandex.",B.Cc,null,null,null,"https://chelnok.kg/","\ud83e\uddf5","E-Commerce")
-B.C_=s(["Flutter","Riverpod","WebSocket","Firebase","Google Maps SDK","OAuth 2.0"],t.s)
-B.Gn=new A.dE("TOP","Football social platform with 70+ screens. Real-time chat with voice messages, tournament management (league/knockout/playoff), tactical formation builder with canvas rendering, and field booking with payment integration.",B.C_,null,null,null,"https://topsport.asia/","\u26bd","Sports")
-B.CF=s(["Flutter","Riverpod","Sqflite","Firebase","REST API"],t.s)
-B.Gj=new A.dE("ADHDo.it","Task planning app with offline-first architecture and auto sync. Multi-provider auth, full CRUD with local caching via Sqflite, and background sync service for data consistency.",B.CF,null,"https://apps.apple.com/us/app/dondone/id6749378933","https://play.google.com/store/apps/details?id=dev.adhdo.dondone&hl=en",null,"\u2705","Productivity")
-B.BZ=s(["Flutter","BLoC","Firebase","REST API"],t.s)
-B.Gm=new A.dE("Osh Online","Classifieds platform for posting and browsing ads. Optimized list performance, refactored legacy codebase, and improved ad creation flows with better UX and validation.",B.BZ,null,null,null,"https://oshonline.kg/","\ud83d\udccb","Classifieds")
-B.Cv=s(["Flutter","Riverpod","WebSocket","Firebase","REST API","MBank"],t.s)
-B.Gp=new A.dE("Appkel & Appkel Sat","Dual delivery platform \u2014 customer app and seller/courier management app. Full e-commerce flow, real-time order tracking via WebSocket, and MBank payment integration.",B.Cv,null,"https://apps.apple.com/us/app/appkel/id6502715512",null,null,"\ud83d\ude9a","Delivery")
-B.BS=s(["Flutter","BLoC","Firebase","Google Maps SDK","WebSocket","OAuth 2.0"],t.s)
-B.Gk=new A.dE("\u0410\u043a-\u042d\u043c\u0433\u0435\u043a","Job search platform for both applicants and recruiters. Multi-provider auth (Google, Apple), vacancy maps via Google Maps, and recruiter verification system.",B.BS,null,null,"https://play.google.com/store/apps/details?id=dev.odigital.ak_emgek&hl=en",null,"\ud83d\udcbc","Recruitment")
-B.Cr=s(["Flutter","BLoC","Firebase","Firestore","Clean Architecture","GetIt"],t.s)
-B.Gq=new A.dE("Drawing App","Cross-platform drawing editor with Firebase integration. Brush customization (size, color), eraser, undo, image import from gallery, export & share, drawings gallery with thumbnail caching (10-15x faster load), offline mode, and local notifications. Clean Architecture + BLoC.",B.Cr,"https://github.com/jumashovnursultan/flutter-drawing-app",null,null,null,"\ud83c\udfa8","Productivity")
-B.C8=s(["Flutter","Riverpod","Dio","Drift","REST API","Clean Architecture"],t.s)
-B.Gr=new A.dE("Rick & Morty Browser","Character browser app using the Rick and Morty public API. Pagination on scroll, favorites with sorting by name/status/species, offline mode with local DB caching, dark theme toggle, and animations on favorites actions. Clean Architecture + Layer-First.",B.C8,"https://github.com/jumashovnursultan/flutter-rick-and-morty-app",null,null,null,"\ud83d\udc7d","Entertainment")
-B.CA=s(["Flutter Web","flutter_animate","Google Fonts"],t.s)
-B.Go=new A.dE("DevPortfolio","This very website! A Flutter Web portfolio with smooth animations, dark theme UI, and responsive design across all screen sizes.",B.CA,"https://github.com/jumashovnursultan/flutter_portfolio",null,null,null,"\ud83d\ude80","Web")
-B.kR=s([B.Gl,B.Gs,B.Gn,B.Gj,B.Gm,B.Gp,B.Gk,B.Gq,B.Gr,B.Go],A.ab("w<dE>"))
 B.b9=new A.dG(1,"fuchsia")
 B.C9=s([B.ak,B.b9,B.a9,B.aT,B.aU,B.aV],A.ab("w<dG>"))
 B.w7=new A.pm(0,"topLeft")
@@ -65699,7 +65678,7 @@ B.ie=new A.EE(1,"page")
 B.ig=new A.el(B.al,B.ie)
 B.Ce=s([B.x1,B.ig],A.ab("w<aB>"))
 B.Ck=s([],t.EQ)
-B.kU=s([],A.ab("w<avA>"))
+B.kT=s([],A.ab("w<avA>"))
 B.Co=s([],t.D)
 B.Cm=s([],t.gw)
 B.Cp=s([],t.yx)
@@ -65709,15 +65688,15 @@ B.Cq=s([],A.ab("w<aeZ<@>>"))
 B.hD=s([],t.f8)
 B.Cj=s([],t.E1)
 B.hC=s([],t.W)
-B.kS=s([],t.s)
+B.kR=s([],t.s)
 B.a7=s([],t.ve)
 B.Cl=s([],t.px)
 B.Qf=s([],t.p)
 B.Cg=s([],t.t)
-B.kT=s([],t.zz)
+B.kS=s([],t.zz)
 B.Cn=s([],t.yH)
 B.d3=s([B.bx,B.bj,B.dI,B.dJ,B.fn],t.EQ)
-B.kW=s([B.c7,B.eg,B.eh,B.n,B.D,B.ax,B.am,B.c8,B.c9],A.ab("w<dP>"))
+B.kV=s([B.c7,B.eg,B.eh,B.n,B.D,B.ax,B.am,B.c8,B.c9],A.ab("w<dP>"))
 B.ce=new A.eJ(0,"controlModifier")
 B.cf=new A.eJ(1,"shiftModifier")
 B.cg=new A.eJ(2,"altModifier")
@@ -65727,8 +65706,29 @@ B.hX=new A.eJ(5,"numLockModifier")
 B.hY=new A.eJ(6,"scrollLockModifier")
 B.hZ=new A.eJ(7,"functionModifier")
 B.q6=new A.eJ(8,"symbolModifier")
-B.kX=s([B.ce,B.cf,B.cg,B.ch,B.hW,B.hX,B.hY,B.hZ,B.q6],A.ab("w<eJ>"))
+B.kW=s([B.ce,B.cf,B.cg,B.ch,B.hW,B.hX,B.hY,B.hZ,B.q6],A.ab("w<eJ>"))
 B.hE=s([!0,!1],t.sj)
+B.CI=s(["Flutter","BLoC","Firebase","REST API","OAuth 2.0","Dynamic Links"],t.s)
+B.Gl=new A.dE("\u041c\u0430\u043b \u0411\u0430\u0437\u0430\u0440","Digital agro-platform for Kyrgyzstan. Deep linking via Firebase Dynamic Links, YouTube video playback, and favorites with local caching and server sync.",B.CI,null,"https://apps.apple.com/us/app/%D0%BC%D0%B0%D0%BB-%D0%B1%D0%B0%D0%B7%D0%B0%D1%80/id6745025940","https://play.google.com/store/apps/details?id=kg.dev.mb","https://malbazar.me/","\ud83d\udc11","AgriTech")
+B.Cc=s(["Flutter","Riverpod","Firebase","REST API","OAuth 2.0"],t.s)
+B.Gm=new A.dE("Chelnok","Marketplace for the sewing industry with multi-role system for workshops, clients and users. 9 ad categories, ratings & reviews, and OAuth 2.0 auth via Google, Apple and Yandex.",B.Cc,null,"https://apps.apple.com/kg/app/%D1%87%D0%B5%D0%BB%D0%BD%D0%BE%D0%BA-chelnok/id6741675940","https://play.google.com/store/apps/details?id=com.erlanoff.shuttle","https://chelnok.kg/","\ud83e\uddf5","E-Commerce")
+B.C_=s(["Flutter","Riverpod","WebSocket","Firebase","Google Maps SDK","OAuth 2.0"],t.s)
+B.Gn=new A.dE("TOP","Football social platform with 70+ screens. Real-time chat with voice messages, tournament management (league/knockout/playoff), tactical formation builder with canvas rendering, and field booking with payment integration.",B.C_,null,"https://apps.apple.com/kg/app/top/id6477701651","https://play.google.com/store/apps/details?id=dev.odigital.topkg","https://topsport.asia/","\u26bd","Sports")
+B.CF=s(["Flutter","Riverpod","Sqflite","Firebase","REST API"],t.s)
+B.Gj=new A.dE("ADHDo.it","Task planning app with offline-first architecture and auto sync. Multi-provider auth, full CRUD with local caching via Sqflite, and background sync service for data consistency.",B.CF,null,"https://apps.apple.com/us/app/dondone/id6749378933","https://play.google.com/store/apps/details?id=dev.adhdo.dondone&hl=en",null,"\u2705","Productivity")
+B.BZ=s(["Flutter","BLoC","Firebase","REST API"],t.s)
+B.Gs=new A.dE("Osh Online","Classifieds platform for posting and browsing ads. Optimized list performance, refactored legacy codebase, and improved ad creation flows with better UX and validation.",B.BZ,null,"https://apps.apple.com/us/app/%D0%BE%D1%88-online/id6444031624","https://play.google.com/store/apps/details?id=com.tologon.kudaiberdiuulu.osh.online","https://oshonline.kg/","\ud83d\udccb","Classifieds")
+B.Cv=s(["Flutter","Riverpod","WebSocket","Firebase","REST API","MBank"],t.s)
+B.Gp=new A.dE("Appkel & Appkel Sat","Dual delivery platform \u2014 customer app and seller/courier management app. Full e-commerce flow, real-time order tracking via WebSocket, and MBank payment integration.",B.Cv,null,"https://apps.apple.com/us/app/appkel/id6502715512",null,null,"\ud83d\ude9a","Delivery")
+B.BS=s(["Flutter","BLoC","Firebase","Google Maps SDK","WebSocket","OAuth 2.0"],t.s)
+B.Gk=new A.dE("\u0410\u043a-\u042d\u043c\u0433\u0435\u043a","Job search platform for both applicants and recruiters. Multi-provider auth (Google, Apple), vacancy maps via Google Maps, and recruiter verification system.",B.BS,null,null,"https://play.google.com/store/apps/details?id=dev.odigital.ak_emgek&hl=en",null,"\ud83d\udcbc","Recruitment")
+B.Cr=s(["Flutter","BLoC","Firebase","Firestore","Clean Architecture","GetIt"],t.s)
+B.Gq=new A.dE("Drawing App","Cross-platform drawing editor with Firebase integration. Brush customization (size, color), eraser, undo, image import from gallery, export & share, drawings gallery with thumbnail caching (10-15x faster load), offline mode, and local notifications. Clean Architecture + BLoC.",B.Cr,"https://github.com/jumashovnursultan/flutter-drawing-app",null,null,null,"\ud83c\udfa8","Productivity")
+B.C8=s(["Flutter","Riverpod","Dio","Drift","REST API","Clean Architecture"],t.s)
+B.Gr=new A.dE("Rick & Morty Browser","Character browser app using the Rick and Morty public API. Pagination on scroll, favorites with sorting by name/status/species, offline mode with local DB caching, dark theme toggle, and animations on favorites actions. Clean Architecture + Layer-First.",B.C8,"https://github.com/jumashovnursultan/flutter-rick-and-morty-app",null,null,null,"\ud83d\udc7d","Entertainment")
+B.CA=s(["Flutter Web","flutter_animate","Google Fonts"],t.s)
+B.Go=new A.dE("DevPortfolio","This very website! A Flutter Web portfolio with smooth animations, dark theme UI, and responsive design across all screen sizes.",B.CA,"https://github.com/jumashovnursultan/flutter_portfolio",null,null,null,"\ud83d\ude80","Web")
+B.kX=s([B.Gl,B.Gm,B.Gn,B.Gj,B.Gs,B.Gp,B.Gk,B.Gq,B.Gr,B.Go],A.ab("w<dE>"))
 B.IH=new A.dc("Flutter",90,"Mobile")
 B.IE=new A.dc("Dart",88,"Language")
 B.IK=new A.dc("BLoC / Cubit",85,"State Management")
